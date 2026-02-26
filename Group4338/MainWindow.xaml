@@ -31,7 +31,16 @@
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition />
-                    <RowDefinition />
+					<RowDefinition >
+						<Button x:Name="AuthorInfoButton"
+                        Content="Информация об авторе"
+                        Width="150"
+                        Height="30"
+                        Margin="10"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Click="AuthorInfoButton_Click"/>
+					</RowDefinition>
                     <RowDefinition />
                     <RowDefinition />
                     <RowDefinition />

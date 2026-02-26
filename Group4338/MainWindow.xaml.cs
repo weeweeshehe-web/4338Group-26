@@ -7,4 +7,10 @@ namespace Group4338
         public MainWindow()
             => InitializeComponent();
     }
-}
+    private void AuthorInfoButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+            var authorWindow = new _4338_Kirillovykh(); 
+            authorWindow.ShowDialog();
+        }
+    }
